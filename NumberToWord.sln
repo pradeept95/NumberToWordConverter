@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToWordTest", "NumberToWordTest\NumberToWordTest.csproj", "{DF1D6A5E-6A38-424D-9510-E289E394A033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToWordConverter", "NumberToWordConverter\NumberToWordConverter.csproj", "{FECC2C18-426A-41D5-A55D-024B24D507A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF1D6A5E-6A38-424D-9510-E289E394A033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1D6A5E-6A38-424D-9510-E289E394A033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1D6A5E-6A38-424D-9510-E289E394A033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1D6A5E-6A38-424D-9510-E289E394A033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECC2C18-426A-41D5-A55D-024B24D507A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECC2C18-426A-41D5-A55D-024B24D507A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECC2C18-426A-41D5-A55D-024B24D507A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECC2C18-426A-41D5-A55D-024B24D507A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2632C80-A5AE-448B-B9E0-632F808B6854}
+	EndGlobalSection
+EndGlobal

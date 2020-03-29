@@ -1,0 +1,8 @@
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\bin\Debug\netcoreapp2.2\NumberToWordConverter.deps.json
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\bin\Debug\netcoreapp2.2\NumberToWordConverter.dll
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\bin\Debug\netcoreapp2.2\NumberToWordConverter.pdb
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.csproj.CoreCompileInputs.cache
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.AssemblyInfoInputs.cache
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.AssemblyInfo.cs
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.dll
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.pdb

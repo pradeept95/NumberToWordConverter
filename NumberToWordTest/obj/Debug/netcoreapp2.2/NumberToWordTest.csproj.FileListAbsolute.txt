@@ -1,0 +1,14 @@
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.csproj.CoreCompileInputs.cache
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.AssemblyInfoInputs.cache
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.AssemblyInfo.cs
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.csprojAssemblyReference.cache
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordTest.deps.json
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordTest.runtimeconfig.json
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordTest.runtimeconfig.dev.json
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordTest.dll
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordTest.pdb
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordConverter.dll
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.2\NumberToWordConverter.pdb
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.csproj.CopyComplete
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.dll
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.pdb
