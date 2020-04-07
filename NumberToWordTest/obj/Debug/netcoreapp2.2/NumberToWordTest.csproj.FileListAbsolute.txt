@@ -12,3 +12,4 @@ C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\bin\Debug\netcoreapp2.
 C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.csproj.CopyComplete
 C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.dll
 C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.pdb
+C:\Users\prade\source\repos\NumberToWord\NumberToWordTest\obj\Debug\netcoreapp2.2\NumberToWordTest.genruntimeconfig.cache

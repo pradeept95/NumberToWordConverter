@@ -6,3 +6,4 @@ C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcore
 C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.AssemblyInfo.cs
 C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.dll
 C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.pdb
+C:\Users\prade\source\repos\NumberToWord\NumberToWordConverter\obj\Debug\netcoreapp2.2\NumberToWordConverter.csprojAssemblyReference.cache

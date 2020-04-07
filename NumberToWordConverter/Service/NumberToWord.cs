@@ -1,5 +1,6 @@
 ﻿
 
+using System;
 using System.Linq;
 
 namespace NumberToWords
@@ -9,9 +10,9 @@ namespace NumberToWords
         static string[] ones = new string[] { "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
         static string[] teens = new string[] { "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
         static string[] tens = new string[] { "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
-        static string[] thousandsGroups = { "", " Thousand", " Million", " Billion" };
+        static string[] thousandsGroups = { "", " Thousand", " Million", " Billion", " Trillion", " Quadrillion", " Quintillion", " Sextillion" };
 
-        private static string BeforeDecimalNumber(int n, string leftDigits, int thousands)
+        private static string BeforeDecimalNumber(long n, string leftDigits, int thousands)
         {
             if (n == 0)
             {
@@ -53,15 +54,20 @@ namespace NumberToWords
             return friendlyInt + thousandsGroups[thousands];
         }
 
-        private static string AfterDecimalNumber(int n)
+        private static string AfterDecimalNumber(long n, int decimalPrecision)
         {
+            if (decimalPrecision == 0) return "";
             string divident = n.ToString();
+            if (decimalPrecision > -1)
+            {
+                divident = divident.Substring(0, decimalPrecision);
+            }
             string divisor = "1";
             for (int i = 0; i < divident.Length; i++) divisor = divisor + "0";
             return $" and {divident}/{divisor}";
         }
 
-        public static string NonDecimalNumber(int n)
+        public static string NonDecimalNumber(long n)
         {
             if (n == 0)
             {
@@ -77,13 +83,29 @@ namespace NumberToWords
 
 
 
-        public static string NumberWithDecimal(string n)
+        public static string NumberWithDecimal(object n, int decimalPrecision = -1)
         {
-            string[] parts = n.Split('.'); 
-            int i1 = int.Parse(parts[0]);
-            int i2 = int.Parse(parts[1]);
+            var number = ((double)n).ToString("F99").TrimEnd('0');
+            string[] parts = number.Split('.');
+            long i1 = long.Parse(parts[0]);
+            var a = parts.Length == 2 && !string.IsNullOrEmpty(parts[1]) ? parts[1] : "0";
+            long i2 = long.Parse(a);
 
-            return $"{NonDecimalNumber(i1)} {AfterDecimalNumber(i2)}" ;
-        } 
+            return $"{NonDecimalNumber(i1)} {AfterDecimalNumber(i2, decimalPrecision)}";
+        }
+
+        private static int GetPricision(double number)
+        { 
+            var precision = 0;
+            var x = Convert.ToDecimal(number);
+
+            while (x * (decimal)Math.Pow(10, precision) !=
+                     Math.Round(x * (decimal)Math.Pow(10, precision)))
+                precision++;
+
+            return precision;
+
+        }
+
     }
 }
