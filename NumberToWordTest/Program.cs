@@ -7,7 +7,7 @@ namespace NumberToWordTest
     {
         static void Main(string[] args)
         {
-            var a = 323;
+            var a = -323.99;
             var result = a.ToWordFormat();
 
             Console.WriteLine(result);
